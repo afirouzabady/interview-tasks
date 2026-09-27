@@ -1,0 +1,8 @@
+{
+  "ORD-1001": {"order_ref": "ORD-1001", "seller_id": "SELLER-ARCTIC", "currency": "EUR"},
+  "ORD-1002": {"order_ref": "ORD-1002", "seller_id": "SELLER-ARCTIC", "currency": "EUR"},
+  "ORD-1003": {"order_ref": "ORD-1003", "seller_id": "SELLER-ARCTIC", "currency": "EUR"},
+  "ORD-1004": {"order_ref": "ORD-1004", "seller_id": "SELLER-BOREAL", "currency": "EUR"},
+  "ORD-1005": {"order_ref": "ORD-1005", "seller_id": "SELLER-BOREAL", "currency": "EUR"},
+  "ORD-1006": {"order_ref": "ORD-1006", "seller_id": "SELLER-BOREAL", "currency": "EUR"}
+}

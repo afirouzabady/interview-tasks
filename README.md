@@ -65,7 +65,10 @@ These come from different people and are quoted as they were given to us.
 
 ## What to hand back
 
-A zip or a git bundle of this directory, containing:
+Push a branch named `submission/your-name` to this repository — not `main`, and no pull
+request needed. See [WELCOME.md](WELCOME.md) for the exact commands.
+
+The branch should contain:
 
 1. **Your code changes.** `pytest` should pass.
 2. **`DECISIONS.md`** — the template is in the repo. Two pages maximum. This is the part

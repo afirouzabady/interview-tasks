@@ -2,7 +2,8 @@
 
 Dear candidate,
 
-Thanks again for your time. Here's the technical task.
+Thanks again for your time. Here's the technical task:
+https://github.com/afirouzabady/interview-tasks
 
 **The short version.** Inside is a small internal service that listens for payment
 events from our payment provider and keeps track of how much money each seller is owed.
@@ -28,7 +29,28 @@ what you'd do about the rest scores better with us than touching everything
 superficially. If you decide to skip something on purpose, just say so — that reads as a
 finding, not a gap.
 
-**What to send back** (zip this folder again, or send a git bundle):
+**How to hand it back.** Work on a branch in this repository and push it:
+
+```bash
+git clone https://github.com/afirouzabady/interview-tasks.git
+cd interview-tasks
+git checkout -b submission/your-name
+
+# ... your work ...
+
+git add -A
+git commit -m "ACME-1204: reconcile seller balances"
+git push -u origin submission/your-name
+```
+
+Please use a branch named `submission/your-name`, and leave `main` alone — no pull
+request needed. Commit as you go if you like; we don't mind messy history, and it is
+sometimes interesting to see the order you worked in. Message me once it's pushed.
+
+Your account has been given write access to the repository. If the push is rejected,
+tell me rather than working around it — that's a permissions problem on our side.
+
+Your branch should contain:
 
 1. Your code changes, with `pytest` passing.
 2. `DECISIONS.md` — what you found, what you fixed, what you left and why. Two pages
